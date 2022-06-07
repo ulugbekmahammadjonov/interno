@@ -1,0 +1,9 @@
+/* jost 400, 
+DM Serif Display 400,  */
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Jost', sans-serif; */
+h2{
+    text-align: center;
+    color: yellow;
+    font-family: 'Jost', sans-serif
+}
