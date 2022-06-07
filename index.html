@@ -1,20 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interno</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--    FONT FAMILY -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/narmalize.css">
-    <link rel="stylesheet" href="./css/interno.css">
+    <link rel="stylesheet" href="./css/narmalize.css" />
+    <link rel="stylesheet" href="./css/interno.css" />
+  </head>
 
-</head>
-<body>
-    <h2>hello</h2>
-</body>
+  <body>
+    <header class="site-header container">
+      <a class="site__link" href="index.html">
+        <img
+          src="./images/site__logo.svg"
+          alt="site-logo-img "
+          width="177"
+          height="50"
+        />
+      </a>
+      <nav class="site__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link active" href="#">Home</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Pages</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SITE-MAIN -->
+
+    <main class="site-main">
+      <!-- main-top -->
+      <section class="main__top">
+        <div class="container">
+          <h1 class="main__title">Let's Create Your Dream Interior</h1>
+          <p class="main__text">
+            The world needs innovators and problem solvers who turn
+            <br />challenges into greater opportunities.
+          </p>
+          <a href="#" class="main-link"
+            >Get Started<i class="fa-solid fa-arrow-right-long"></i
+          ></a>
+        </div>
+      </section>
+      <!-- section-instruction -->
+      <section class="section-instruction container">
+        <ul class="instruction__list">
+          <li class="instruction__item">
+            <h2 class="instruction__title">Interior Design</h2>
+            <p class="instruction__text">
+              Enhancing the interior to achieve a healthier environment for the
+              people using right space.
+            </p>
+            <a class="instruction__link" href="#"
+              >View More<i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </li>
+          <li class="instruction__item">
+            <h2 class="instruction__title">Furniture</h2>
+            <p class="instruction__text">
+              Movable articles that are used to make a room or building suitable
+              for living or working.
+            </p>
+            <a class="instruction__link" href="#"
+              >View More<i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </li>
+          <li class="instruction__item">
+            <h2 class="instruction__title">Flooring</h2>
+            <p class="instruction__text">
+              Thin object any finished material applied over a floor structure
+              to provide a walking surface.
+            </p>
+            <a class="instruction__link" href="#"
+              >View More<i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <!-- section-designs -->
+      <section class="section-designs container">
+        <div class="design-container">
+          <div class="design__card">
+            <h2 class="design__title">
+              We Tackle The Most Challenging Designs
+            </h2>
+            <p class="design__text">
+              The world needs innovators and problem solvers who turn challenges
+              into greater opportunities. We have an insatiable curiosity about
+              transformative trends challenging the status.
+            </p>
+            <div class="design__phone">
+              <button class="design__phone-btn">
+                <img
+                  src="./images/phone-icon.svg"
+                  alt="phone"
+                  width="93"
+                  height="93"
+                />
+              </button>
+              <p class="design__phone-number">
+                012345678 <br />Call Us Anytime
+              </p>
+            </div>
+            <a href="#" class="design__link"
+              >Get Free Estimate <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+          <img
+            class="design__img"
+            src="./images/design-img.jpg"
+            alt="design-img"
+            width="592"
+            height="635"
+          />
+        </div>
+      </section>
+      <!-- section-feedback -->
+      <section class="section-feedback container">
+        <h2 class="feedback__title">
+          What the People Thinks <br />
+          About Interno
+        </h2>
+        <ul class="feedback__list">
+          <li class="feedback__item">
+            <img class="feedback__img" src="./images/lisa.png" />
+            <h3 class="feedback__name">Lisa Clairton</h3>
+            <p class="feedback__location">New York, USA</p>
+            <p class="feedback__text">
+              We selected Interno interior because of rigorous design background
+              & education.
+            </p>
+          </li>
+          <li class="feedback__item">
+            <img class="feedback__img" src="./images/david.png" />
+            <h3 class="feedback__name">David Knight</h3>
+            <p class="feedback__location">Sydney, Australia</p>
+            <p class="feedback__text">
+              The team exceeded our expectations and emerged as leaders of our
+              project’s.
+            </p>
+          </li>
+          <li class="feedback__item">
+            <img class="feedback__img" src="./images/lisa2.png" />
+            <h3 class="feedback__name">Lisa Clairton</h3>
+            <p class="feedback__location">Paris, France</p>
+            <p class="feedback__text">
+              They balanced the architectural vision and the project realities
+              beautifully.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- section-logos -->
+      <section class="section-logos">
+        <div class="slideshow-container container">
+          <div class="mySlides fade">
+            <img src="./images/home.svg" width="" height="" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./images/vs.svg" width="" height="" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./images/brand.svg" width="" height="" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <section class="section-furneture">
+        <h2 class="furneture__title">Recent Projects</h2>
+        <p class="furneture__text">
+          With tools to make every part of your process more human and a support
+          team excited to help you, getting started with us never been easier.
+        </p>
+        <div class="furneture__cards">
+          <div class="furneture__card-container">
+            <img
+              src="./images/modern.jpg"
+              width="590"
+              height="631"
+              alt="room"
+            />
+            <div class="furneture-card">
+              <div>
+                <h3 class="furnature__title">Winery Dry Creek Building</h3>
+                <p class="furnature__text">Art Modern</p>
+              </div>
+              <button class="furneture-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="furneture__card-container">
+            <img
+              src="./images/modern.jpg"
+              width="590"
+              height="631"
+              alt="room"
+            />
+            <div class="furneture-card">
+              <div>
+                <h3 class="furneture__title">Winery Dry Creek Building</h3>
+                <p class="furneture__text">Art Modern</p>
+              </div>
+              <button class="furneture-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="furneture__card-container">
+            <img
+              src="./images/modern.jpg"
+              width="590"
+              height="631"
+              alt="room"
+            />
+            <div class="furneture-card">
+              <div>
+                <h3 class="furnature__title">Winery Dry Creek Building</h3>
+                <p class="furnature__text">Art Modern</p>
+              </div>
+              <button class="furneture-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="furneture__card-container">
+            <img
+              src="./images/modern.jpg"
+              width="590"
+              height="631"
+              alt="room"
+            />
+            <div class="furneture-card">
+              <div>
+                <h3 class="furnature__title">Winery Dry Creek Building</h3>
+                <p class="furnature__text">Art Modern</p>
+              </div>
+              <button class="furneture-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>
