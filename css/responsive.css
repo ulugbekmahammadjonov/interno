@@ -201,10 +201,12 @@
       padding-top: 70px;
     }
     .feedback__list{
-     padding-bottom: 80px;
+     padding:0px 0px 80px 0px;
+     text-align: center;
     }
     .feedback__item{
       margin: 20px auto;
+      /* padding: ; */
     }
 
     .section-furneture{
