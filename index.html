@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interno</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -22,10 +23,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/narmalize.css" />
     <link rel="stylesheet" href="./css/interno.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
   </head>
 
   <body>
-    <header class="site-header container">
+    <header class="site-header ">
       <a class="site__link" href="index.html">
         <img
           src="./images/site__logo.svg"
@@ -34,19 +36,26 @@
           height="50"
         />
       </a>
-      <nav class="site__nav">
+    <nav class="site__nav">
+      <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn" ></i>
+            <i class="fas fa-times" id="cencel"></i>
+        </label>
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__link active" href="#">Home</a>
+            <a class="nav__link active-page" href="#">Home</a>
           </li>
           <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
           <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
           <li class="nav__item"><a class="nav__link" href="#">Pages</a></li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Contact Us</a>
-          </li>
+          <li class="nav__item"><a class="nav__link" href="#">Contact Us</a></li>
         </ul>
+        <label class="icon">
+            <i class="fas fa-bars"></i>
+      </label>
       </nav>
+      
     </header>
 
     <!-- SITE-MAIN -->
@@ -510,6 +519,7 @@
         <p class="footer__bottom-text">Copyright © Interno | Designed by <span>Victorflow</span> Templates - Powered by <span>Webflow</span></p>
       </div>
     </footer>
+    <div class="overlay hidden"></div>
     <script src="app.js"></script>
   </body>
 </html>
