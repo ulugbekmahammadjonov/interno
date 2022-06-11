@@ -215,12 +215,12 @@
         font-size: 37px;
     }
     .furneture__img{
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 300px;
       border-radius: 0px 60px 0px 0px;
     }
     .furneture-card{
-      width: 400px;
+      width: 300px;
     }
     .furneture__title{
       font-size: 20px;
@@ -236,22 +236,19 @@
         margin-top: 80px;
     }
     .result__list{
-        padding: 80px 0;
+        padding: 50px 0;
     }
     .result__item h2{
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: 0.7px;
         line-height: 80px;
     }
     .result__item p{
-        font-size: 15px;
+        font-size: 12px;
         letter-spacing: 0.7px;
     }
     .linear {
-        background-color: #CDA274;
-        width: 0.5px;
-        height: 105px;
-        margin-left: 40px;
+        display: none;
     }
     .section-blogs{
         margin: 0px;
